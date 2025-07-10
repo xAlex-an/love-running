@@ -38,6 +38,20 @@ h1 {
   letter-spacing: 2px;
   color: #252525;
 }
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
+
+#menu > li {
+  margin-bottom: 1em;
+}
+
+.active {
+  border-bottom: 1px solid #3a3a3a;
+}
 main {
   background-color: lightblue;
   flex: 1 0 auto; /* Allow main to grow and fill available space and push footer down */
