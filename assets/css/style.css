@@ -22,6 +22,9 @@ header {
   background-color: lightcoral;
 }
 
+h1 {
+  font-family: "Oswald", sans-serif;
+}
 main {
   background-color: lightblue;
   flex: 1 0 auto; /* Allow main to grow and fill available space and push footer down */
