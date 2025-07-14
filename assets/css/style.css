@@ -192,6 +192,18 @@ hr {
   /*  Override the heading color set in general styles */
   color: #fafafa;
 }
+
+/*  Gallery page  */
+
+#photos img {
+  width: 100%;
+  line-height: 1em; /* Ensures images are not stretched */
+}
+
+#photos {
+  line-height: 0;
+}
+
 /* Footer */
 #social-networks {
   text-align: center;
