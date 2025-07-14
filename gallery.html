@@ -40,7 +40,11 @@
         <h1 id="logo">Love Running</h1>
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"
+      <label
+        for="nav-toggle"
+        class="nav-toggle-label"
+        role="button"
+        tabindex="0"
         ><i class="fa-solid fa-bars"></i
       ></label>
       <nav>
@@ -54,9 +58,10 @@
     <!-- Main content -->
     <main>
       <section id="gallery">
+        <h2 class="hidden-heading">Gallery</h2>
         <div id="photos">
           <img
-            src="assets\images\athletes.webp"
+            src="assets/images/athletes.webp"
             alt="Two athletes running together"
           />
           <img
